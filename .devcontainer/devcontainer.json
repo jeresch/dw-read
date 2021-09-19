@@ -1,0 +1,24 @@
+{
+	"name": "Rust",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"target": "dev",
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"files.watcherExclude": {
+			"**/target/**": true
+		},
+		"editor.formatOnSave": true,
+		"resmon.show.cpufreq": false,
+		"rust-analyzer.updates.askBeforeDownload": false,
+		"rust-analyzer.hoverActions.references": true,
+		"rust-analyzer.lens.references": true,
+		"rust-analyzer.checkOnSave.command": "clippy",
+	},
+
+	"extensions": [],
+
+	"remoteUser": "vscode"
+}

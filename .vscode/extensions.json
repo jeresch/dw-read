@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"matklad.rust-analyzer",
+		"bungcip.better-toml",
+		"vadimcn.vscode-lldb",
+		"mutantdino.resourcemonitor",
+		"ms-azuretools.vscode-docker",
+		"hediet.vscode-drawio",
+		"davidanson.vscode-markdownlint",
+		"serayuzgur.crates",
+		"eamodio.gitlens",
+		"gruntfuggly.todo-tree",
+	],
+	"unwantedRecommendations": [
+		"rust-lang.rust",
+	],
+}
